@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <style>
+
+        .content{
+            max-width: 900px;
+            padding: 50px 100px;
+            display: flex ;
+            align-items: center;
+        }
+        .row .col h2,
+        .row .col p {
+            margin: 10px 0;
+        }
+        .skill_row{
+            display: flex;
+            justify-content: space-between;
+        }
+        .tech_col {
+            border: 2px solid transparent;
+            margin: 5px 0;
+            padding: 5px 0 5px 10px;
+        }
+        .tech_col ul{
+            padding-left: 20px;
+            list-style: circle;
+        }
+        @media only screen and (max-width: 500px) {
+            .content {
+                padding: 10px 15px;
+                display: flex;
+                align-items: center;
+                height: 70vh;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <h1 class="logo"><a href="index.html">^</a></h1>
+
+            <div class="r-row">
+                <ul class="links">
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="content">
+            <div class="row">
+                <div class="col">
+                    <h1>About Me</h1>
+                    <h2>who am i?</h2>
+                    <p>I am a passionate software engineering student eager to enter the tech industry and 
+                        contribute by building innovative and impactful projects.</p>
+
+                    <h2>Tech Skills</h2>
+                    <div class="skill_row">
+
+                        <div class="tech_col">
+                            <h3>Frontend</h3>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS</li>
+                                <li>JS</li>
+                                <li>Bootstrap</li>
+                                <li>JQuery</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech_col">
+                            <h3>Backend</h3>
+                            <ul>
+                                <li>PHP</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech_col">
+                            <h3>Database</h3>
+                            <ul>
+                                <li>MySQL</li>
+                                <li>SQL</li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h2>Soft SKills</h2>
+                    <div class="skill_row">
+
+                        <div class="tech_col">
+                            <ul>
+                                <li>Critical thinking</li>
+                                <li>Conversation</li>
+                                <li>Problem solving</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
