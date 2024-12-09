@@ -65,10 +65,8 @@ nav ul li .active {
 }
 
 @media only screen and (max-width: 500px) {
-    html { height: 100% }
-    
     body{
-        min-height: 95% 
+        min-height: 100% 
     }
     .container {
         position: relative;
